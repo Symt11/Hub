@@ -1,0 +1,14 @@
+# Nunca incorporar el respaldo de fase 4 ni datos privados.
+.env
+.env.*
+*.sqlite*
+*.db
+*.log
+.venv/
+instance/
+__pycache__/
+node_modules/
+respaldo*/
+backups/
+*.zip
+.DS_Store
